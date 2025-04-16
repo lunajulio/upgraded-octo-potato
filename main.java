@@ -1,13 +1,13 @@
 // importar la funcion de la clase problem9
 
-import medium.Problem17;
+import medium.Program20;
 
 public class main {
     public static void main(String[] args) {
-        Problem17 problem17 = new Problem17();
-        int[] nums = {3, 2, 1, 0, 4};
-        boolean result = problem17.jumpGame(nums);
-        System.out.println("Can jump to the end: " + result);
+        Program20 problem20 = new Program20();
+        int[] nums = {3, 0, 6, 1, 5};
+        int result = problem20.hIndex(nums);
+        System.out.println("The h-index is: " + result);
         
     }
 }

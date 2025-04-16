@@ -2,7 +2,9 @@ package medium;
 
 public class Problem17 {
     public boolean jumpGame (int[] nums) {
+
         boolean result = false;
+        
         if (nums.length == 1) {
             return true;
         }
